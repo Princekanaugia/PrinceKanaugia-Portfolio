@@ -3,8 +3,8 @@
 :root{
     --primary-color : #1C64F2;
     --light-gray : #6B7280;
-    --whitesh-red : #FDF2F2;
-    --whitesh-blue : #EBF5FF;
+    --whitish-cyan-50 : #ecfeff;
+    --whitish-cyan-100 : #cffafe;
 }
 
 body{
@@ -128,12 +128,12 @@ hr {
     text-align: center;
 }
 
-.whitesh-red {
-    background-color: var(--whitesh-red);
+.section-color-2 {
+    background-color: var(--whitish-cyan-50);
 }
 
-.whitesh-blue {
-    background-color: var(--whitesh-blue);
+.section-color-1 {
+    background-color: var(--whitish-cyan-100);
 }
 
 /** footer **/

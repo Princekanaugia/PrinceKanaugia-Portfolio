@@ -3,8 +3,8 @@
 :root {
     --primary-color: #06b6d4;
     --light-gray: #6B7280;
-    --whitesh-red: #ecfeff;
-    --whitesh-blue: #E1EFFE;
+    --whitesh-cyan-50: #ecfeff;
+    --whitesh-cyan-100: #cffafe;
     --background-color: ;
 }
 
@@ -29,6 +29,8 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    padding-bottom: 1rem;
+
 }
 
 /** links **/
@@ -36,6 +38,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem;
+    margin: auto;
 }
 
 .link-primary {
@@ -134,8 +137,9 @@ hr {
     text-align: center;
 }
 
-section {
+.section {
     display: block;
+    max-width: 85%;
 }
 
 .section h3 {
@@ -143,12 +147,12 @@ section {
     margin: 0%;
 }
 
-.whitesh-red {
-    background-color: var(--whitesh-red);
+.section-color-1 {
+    background-color: var(--whitesh-cyan-50);
 }
 
-.whitesh-blue {
-    background-color: var(--whitesh-blue);
+.section-color-2 {
+    background-color: var(--whitesh-cyan-100);
 }
 
 /** footer **/

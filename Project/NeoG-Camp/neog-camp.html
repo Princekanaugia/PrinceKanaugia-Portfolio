@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prince Kanaugia | Web Devloper Portfolio</title>
-    <link href="style.css" rel="stylesheet" />
+    <title>Prince Kanaugia | NeoG Camp Projects</title>
+    <link href="/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -14,10 +14,10 @@
         <div class="nav-brand">I am Web Developer</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-inline">
-                <a class="link link-active" href="/">Home</a>
+                <a class="link" href="/">Home</a>
             </li>
             <li class="list-inline">
-                <a class="link" href="/Project/project.html">Project</a>
+                <a class="link link-active" href="/Project/project.html">Project</a>
             </li>
             <li class="list-inline">
                 <a class="link" href="/Blog/blog.html">Blog</a>
@@ -28,33 +28,35 @@
         </ul>
     </nav>
     <header class="hero">
-        <img class="hero-img responsive" src="image\profile pic 2.png" />
+        <img class="hero-img responsive" src="/image/profile pic 2.png" />
         <h2 class="hero-heading">Hi, I'm <spam class="heading-inverted">Prince Kanaugia</spam>. I am <spam
                 class="heading-inverted">fontend Developer</spam>
         </h2>
     </header>
 
-    <section class="section section-color-2">
-        <h3>Technical Skills</h3>
-        <p class="container container-center">I am familiar with <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript</b>, Git, Bash
-            shell. I am learning
-            <b>ReactJS</b>, Nodejs,Web-Hosting.</p>
-    </section>
-
-    <section class="section section-color-1">
-        <h3>Projects</h3>
-        <p class="container container-center">This section content will content list of all the project that i have
-            develop during the learning journey.</p>
-        <a class="link link-primary" href="/Project/project.html">See My Projects</a>
-    </section>
-
-    <section class="section section-color-2">
-        <h3>Blogs</h3>
-        <p class="container container-center">This section content will content list of all the Blog that i have wrote
-            on various platform.</p>
-        <a class="link link-secondary" href="/Blog/blog.html">Secondary link</a>
-    </section>
-
+    <ol reversed class="list-non-bullet">
+        <li>
+            <section class="section section-color-2">
+                <h3>Mark 1 : CLI app </h3>
+                <p class="container container-center">NeoG Camp is a Project based Web-Development Bootcamp with
+                    <b>levelZero</b> and <b>levelOne</b>. LevelZero contents 15 project idea to practice namely from
+                    <b>Mark 1 to 15</b></p>
+                <div><a class="link link-primary " href="/Project/NeoG-Camp/neog-camp.html">Show Projects</a>
+                </div>
+            </section>
+        </li>
+        <li>
+            <section class="section section-color-1">
+                <h3>Mark 2 :</h3>
+                <p class="container-center">This section content will content list of all the project that i
+                    have
+                    develop during the learning journey.</p>
+                <div><a class="link link-primary " href="/Project/project.html">Live Project</a>
+                    <a class="link link-secondary" href="/Blog/blog.html">View Source Code</a>
+                </div>
+            </section>
+        </li>
+    </ol reversed>
 
     <footer class="footer">
         <div class="footer-heading">Connect To me
