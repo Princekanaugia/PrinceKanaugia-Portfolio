@@ -9,7 +9,7 @@
 }
 
 body {
-    max-width: 85%;
+    max-width: 100%;
     font-family: 'Montserrat', sans-serif;
     margin: 0px auto;
     background-color: var(--background-color);
@@ -63,7 +63,7 @@ hr {
 
 .list-inline {
     display: inline;
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 0.3rem;
 }
 
 /** navigation bar **/
@@ -168,6 +168,7 @@ hr {
 .footer-heading {
     padding: 0rem 0rem 1rem 0rem;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .footer-heading-img {
