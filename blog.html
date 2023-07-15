@@ -31,6 +31,9 @@
         <h2 class="hero-heading">Here, all my <spam class="heading-inverted">Blogs</spam> are listed. Feel free to <spam class="heading-inverted">Read</spam> it.
         </h2>
     </header>
+    <div class="section">
+        <input type="range" min="0" max="99" onchange="vol()" id="volume-control" >
+    </div>
 
     <ul class="list-non-bullet">
         <li>
@@ -79,6 +82,14 @@
             </li>
         </ul>
     </footer>
+    <script>
+        let audio = new Audio();
+        function vol() {
+
+            var slider =0 + "." + document.querySelector("#volume-control").value;
+            audio.volume = slider;
+        }
+    </script>
 </body>
 
 </html>
